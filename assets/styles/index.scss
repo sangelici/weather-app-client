@@ -1,1 +1,24 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+h1 {
+  // font-size: 100px;
+}
+
+.main {
+  height: 95vh;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  &.box1 {
+    border: 3px solid black;
+    margin-left: 15px;
+    width: 35rem;
+  }
+
+  &.box2 {
+    border: 3px solid black;
+    margin-right: 10px;
+    width: 53em;
+  }
+}
